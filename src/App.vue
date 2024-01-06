@@ -2,7 +2,7 @@
   <template v-if="['login','signup'].includes($route.name)">
     <router-view />
   </template>
-  <div v-show="!['login','signup'].includes($route.name)">
+  <div v-show="!['login','signup'].includes($route.name)">y
     <AppTopBar @menu-toggle="onMenuToggle" @logout="logout" />
 
     <Home />
